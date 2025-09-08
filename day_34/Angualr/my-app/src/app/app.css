@@ -1,0 +1,17 @@
+.counter-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    /* height: 50vh; */
+    margin: 0 auto;
+    border: 2px solid blue;
+    padding: 15px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+    gap: 20px;
+}

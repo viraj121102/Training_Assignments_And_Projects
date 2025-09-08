@@ -1,0 +1,10 @@
+
+<h2>Users List</h2>
+<!-- <div *ngIf="(users$ | async)?.length > 0"> -->
+    <ul>
+        <li *ngFor="let user of users$ | async">
+            {{ user.name }} - {{ user.email }}
+        </li>
+    </ul>
+<!-- </div> -->
+<p *ngIf="(users$ | async)?.length === 0">No users available.</p>

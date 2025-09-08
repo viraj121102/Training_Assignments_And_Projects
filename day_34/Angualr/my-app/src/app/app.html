@@ -1,0 +1,17 @@
+<h1>{{ title() }}</h1>
+<div class="counter-section">
+
+  <h2>Counter: {{ counter$ | async }}</h2>
+  <div class="button-container">
+
+    <button (click)="increment()">Increment</button>
+    <button (click)="decrement()">Decrement</button>
+    <button (click)="reset()">Reset</button>
+  </div>
+</div>
+
+<h1>User Management with NgRx</h1>
+<app-create-user></app-create-user>
+<hr />
+<app-view-user></app-view-user>
+

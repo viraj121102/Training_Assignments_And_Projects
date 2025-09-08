@@ -1,0 +1,7 @@
+
+<!-- <router-outlet /> -->
+ <div>
+  <h1 class="heading">Course Management SPA</h1>
+   <app-course-list  [courses]="courses" (courseSelected)="onCourseSelected($event)"></app-course-list>
+   <app-course-detail [course]="selectedCourse" ></app-course-detail>
+ </div>

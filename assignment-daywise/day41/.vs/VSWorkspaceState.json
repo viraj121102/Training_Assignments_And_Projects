@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BookstoreApp",
+    "\\BookstoreApp\\Controllers",
+    "\\BookstoreApp\\Database",
+    "\\BookstoreApp\\Models",
+    "\\BookstoreApp\\Views",
+    "\\BookstoreApp\\Views\\Books"
+  ],
+  "SelectedNode": "\\BookstoreApp\\appsettings.json",
+  "PreviewInSolutionExplorer": false
+}

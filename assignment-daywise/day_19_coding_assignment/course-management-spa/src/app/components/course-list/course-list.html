@@ -1,0 +1,19 @@
+<div class="course-card">
+  <h2>All Courses</h2>
+
+  <ul class="course-list">
+    <li *ngFor="let c of courses">
+      <div class="course">
+        <div class="course-info">
+          <div class="title">
+            <span><b>Title:</b></span>
+            {{ c.title }}</div>
+          <div class="category">
+            <span><b>Category:</b></span>
+            ({{ c.category }})</div>
+        </div>
+        <button class="btn" (click)="selectCourse(c)">View Details</button>
+      </div>
+    </li>
+  </ul>
+</div>

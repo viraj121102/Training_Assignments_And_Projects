@@ -1,0 +1,96 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Bookstore App</h1>
+    <p class="lead">A comprehensive ASP.NET Core MVC application demonstrating ADO.NET features</p>
+</div>
+
+<div class="row mt-5">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">📚 Manage Books</h5>
+                <p class="card-text">Add, edit, view, and delete books using ADO.NET with connected architecture (SqlDataReader) and stored procedures.</p>
+                <a asp-controller="Books" asp-action="Index" class="btn btn-primary">View All Books</a>
+                <a asp-controller="Books" asp-action="Create" class="btn btn-success">Add New Book</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">🔍 Search Features</h5>
+                <p class="card-text">Search books using parameterized queries to prevent SQL injection attacks.</p>
+                <form asp-controller="Books" asp-action="Search" method="get" class="d-flex">
+                    <input class="form-control me-2" type="search" name="searchTerm" placeholder="Search books..." required>
+                    <button class="btn btn-outline-primary" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">📊 DataSet Demo</h5>
+                <p class="card-text">Demonstrates disconnected architecture using DataSet and SqlDataAdapter.</p>
+                <a asp-controller="Books" asp-action="DataSetDemo" class="btn btn-info">View DataSet Demo</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">🗃️ DataTable Demo</h5>
+                <p class="card-text">Demonstrates disconnected architecture using DataTable and SqlDataAdapter.</p>
+                <a asp-controller="Books" asp-action="DataTableDemo" class="btn btn-warning">View DataTable Demo</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="mt-5">
+    <h3>🎯 Assignment Features Implemented</h3>
+    <div class="row">
+        <div class="col-md-12">
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <span>✅ Database Connectivity with SqlConnection</span>
+                    <span class="badge bg-success rounded-pill">Implemented</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <span>✅ CRUD Operations using SqlCommand</span>
+                    <span class="badge bg-success rounded-pill">Implemented</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <span>✅ SqlDataReader for Connected Architecture</span>
+                    <span class="badge bg-success rounded-pill">Implemented</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <span>✅ Parameterized Queries (SQL Injection Prevention)</span>
+                    <span class="badge bg-success rounded-pill">Implemented</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <span>✅ Stored Procedures for CRUD Operations</span>
+                    <span class="badge bg-success rounded-pill">Implemented</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <span>✅ DataSet and DataTable (Disconnected Architecture)</span>
+                    <span class="badge bg-success rounded-pill">Implemented</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <span>✅ SqlDataAdapter for Dataset Operations</span>
+                    <span class="badge bg-success rounded-pill">Implemented</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <span>✅ Error Handling and Logging</span>
+                    <span class="badge bg-success rounded-pill">Implemented</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,28 @@
+C:\Wipro\Day4\bin\Debug\net9.0\Day4.exe
+C:\Wipro\Day4\bin\Debug\net9.0\Day4.deps.json
+C:\Wipro\Day4\bin\Debug\net9.0\Day4.runtimeconfig.json
+C:\Wipro\Day4\bin\Debug\net9.0\Day4.dll
+C:\Wipro\Day4\bin\Debug\net9.0\Day4.pdb
+C:\Wipro\Day4\obj\Debug\net9.0\Day4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Wipro\Day4\obj\Debug\net9.0\Day4.AssemblyInfoInputs.cache
+C:\Wipro\Day4\obj\Debug\net9.0\Day4.AssemblyInfo.cs
+C:\Wipro\Day4\obj\Debug\net9.0\Day4.csproj.CoreCompileInputs.cache
+C:\Wipro\Day4\obj\Debug\net9.0\Day4.dll
+C:\Wipro\Day4\obj\Debug\net9.0\refint\Day4.dll
+C:\Wipro\Day4\obj\Debug\net9.0\Day4.pdb
+C:\Wipro\Day4\obj\Debug\net9.0\Day4.genruntimeconfig.cache
+C:\Wipro\Day4\obj\Debug\net9.0\ref\Day4.dll
+C:\Wipro Training\Day3\bin\Debug\net9.0\Day4.exe
+C:\Wipro Training\Day3\bin\Debug\net9.0\Day4.deps.json
+C:\Wipro Training\Day3\bin\Debug\net9.0\Day4.runtimeconfig.json
+C:\Wipro Training\Day3\bin\Debug\net9.0\Day4.dll
+C:\Wipro Training\Day3\bin\Debug\net9.0\Day4.pdb
+C:\Wipro Training\Day3\obj\Debug\net9.0\Day4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Wipro Training\Day3\obj\Debug\net9.0\Day4.AssemblyInfoInputs.cache
+C:\Wipro Training\Day3\obj\Debug\net9.0\Day4.AssemblyInfo.cs
+C:\Wipro Training\Day3\obj\Debug\net9.0\Day4.csproj.CoreCompileInputs.cache
+C:\Wipro Training\Day3\obj\Debug\net9.0\Day4.dll
+C:\Wipro Training\Day3\obj\Debug\net9.0\refint\Day4.dll
+C:\Wipro Training\Day3\obj\Debug\net9.0\Day4.pdb
+C:\Wipro Training\Day3\obj\Debug\net9.0\Day4.genruntimeconfig.cache
+C:\Wipro Training\Day3\obj\Debug\net9.0\ref\Day4.dll
